@@ -23,8 +23,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/films" component={FilmList} />
             <Route exact path="/people" component={PeopleList} />
-           
-          </Switch>
+           </Switch>
         </Fragment>
       </Router>
     );
