@@ -8,11 +8,13 @@ export default class Card extends Component {
           className="card col-md-5 mx-auto my-2 p-0 justify-content-center"
           key={film.id}
         >
-          <div className="card-block">
+          <div className="card">
             <h4 className="card-title">Title: {film.title}</h4>
             <p className="card-text">Description: {film.description}</p>
-            <p className="card-text">Director: {film.director}</p>
-            </div>
+            <p className="card-text">Release Date: {film.release_date}</p>
+            <p className="card-text">Rating: {film.rt_score}</p>
+           </div>
+           <hr /><hr />
         </div>
       );
     });
